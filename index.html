@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="x-ua-compatible" content="ie=edge" />
+		<title>¯\_(ツ)_/¯</title>
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link rel="stylesheet" href="dist/css/main.css" />
+
+	</head>
+
+	<body>
+		<header class="head__container">
+			<a href="" class="logo__container">
+				<img src="src/img/pizzaLogoMain.png" alt="Dom, who knows pizza">
+			</a>
+			<div class="daBurger">
+				<div class="top__bun"></div>
+				<div class="bott__bun"></div>
+			</div>
+
+		</header>
+
+		<section class="pizza__shop">
+			<div class="pizza__tray">
+				<article class="pizza__tray-info">
+					<div class="pizza__tray-info-header">
+						<h3 class="pizza__tray-info-head">your pizza is waiting for you</h3>
+						<p class="half-head"></p>
+					</div>
+					<p class="pizza__tray-info-description">Select a pizza (and params) to see the pizza description and price.</p>
+				</article>
+				<article class="pizza__tray-info-half">
+					<p class="half-des"></p>
+				</article>
+				<!-- <div class="pizza__tray-pizza-box"></div> -->
+				<div class="pizza__tray-info-params">
+					<p class="pizza-size"></p>
+					<p class="top-amount"></p>
+					<p class="side-sauce"></p>
+					<p class="pizza__tray-info-price"></p>
+				</div>
+			</div>
+		</section>
+
+		<form class="pizza__params">
+			<div class="param left-params">
+				<button class="drop_btn" id="inp__size" name="size">pizza size</button>
+				<span class="param-val" data="null"></span>
+				<div class="drop__menu size-menu">
+					<a data-val="0">12"</a>
+					<a data-val="1">14"</a>
+					<a data-val="2">16"</a>
+				</div>
+			</div>
+			<div class="param">
+				<button class="drop_btn" id="inp__amount" name="amount">topping amount</button>
+				<span class="param-val" data="null"></span>
+				<div class="drop__menu amount-menu">
+					<a data-val="0">light</a>
+					<a data-val="1">regular</a>
+					<a data-val="2">extra</a>
+				</div>
+			</div>
+			<div class="param left-params">
+				<button class="drop_btn" id="inp__half" name="half">half</button>
+				<span class="param-val" data="null"></span>
+				<div class="drop__menu half-menu">
+					<a data-val="0">full</a>
+					<a data-val="1">half cheese</a>
+					<a data-val="2">half carni</a>
+					<a data-val="3">half vegi</a>
+					<a data-val="4">half house</a>
+					<a data-val="5">half fiji</a>
+					<a data-val="6">half baked</a>
+					<a data-val="7">half maze</a>
+					<a data-val="8">half buffalo</a>
+				</div>
+			</div>
+			<div class="param">
+				<button class="drop_btn" id="inp__sauce" name="sauce">side sauce</button>
+				<span class="param-val" data="null"></span>
+				<div class="drop__menu sauce-menu">
+					<a data-val="0">garlic butter</a>
+					<a data-val="1">ranch</a>
+					<a data-val="2">hot</a>
+					<a data-val="3">BBQ</a>
+					<a data-val="4">basil aioli</a>
+				</div>
+			</div>
+			
+		</form>
+
+		<section class="pizza__menu">
+			<ul class="pizza__menu-container">
+				
+			</ul>
+		</section>
+
+		<footer class="foot__container">
+
+		</footer>
+
+		
+		<script src="src/js/pizza.js"></script>
+		<script src="src/js/order.js"></script>
+		<script src="dist/js/main.js"></script>
+	</body>
+</html>
